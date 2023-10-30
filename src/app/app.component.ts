@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'reactiveForms';
+  userList:any[]=[];
+  addUser(uData:any){
+    console.log(uData.value);
+    this.userList.push(uData);
+  }
 }

@@ -1,0 +1,12 @@
+form{
+    display:flex;
+}
+fieldset{
+    height: fit-content;
+    border-radius: 10px;
+    width: fit-content;
+}
+table,th,tr,td{
+    border: 5px solid rgb(255, 0, 225);
+    padding: auto;
+}
